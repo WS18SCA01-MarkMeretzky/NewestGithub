@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4D847A4A21B1EAC100941531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D847A4921B1EAC100941531 /* AppDelegate.swift */; };
-		4D847A4C21B1EAC100941531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D847A4B21B1EAC100941531 /* ViewController.swift */; };
 		4D847A4F21B1EAC100941531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D847A4D21B1EAC100941531 /* Main.storyboard */; };
 		4D847A5121B1EAC100941531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D847A5021B1EAC100941531 /* Assets.xcassets */; };
 		4D847A5421B1EAC100941531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D847A5221B1EAC100941531 /* LaunchScreen.storyboard */; };
+		4D847A5C21B1EADA00941531 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D847A5B21B1EADA00941531 /* TableViewController.swift */; };
+		4D847A5E21B1EC6200941531 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D847A5D21B1EC6200941531 /* Project.swift */; };
+		4D847A6021B2078700941531 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D847A5F21B2078700941531 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D847A4621B1EAC100941531 /* NewestGithub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewestGithub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D847A4921B1EAC100941531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D847A4B21B1EAC100941531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D847A4E21B1EAC100941531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D847A5021B1EAC100941531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D847A5321B1EAC100941531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D847A5521B1EAC100941531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D847A5B21B1EADA00941531 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4D847A5D21B1EC6200941531 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		4D847A5F21B2078700941531 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				4D847A4921B1EAC100941531 /* AppDelegate.swift */,
-				4D847A4B21B1EAC100941531 /* ViewController.swift */,
+				4D847A5B21B1EADA00941531 /* TableViewController.swift */,
+				4D847A5F21B2078700941531 /* WebViewController.swift */,
+				4D847A5D21B1EC6200941531 /* Project.swift */,
 				4D847A4D21B1EAC100941531 /* Main.storyboard */,
 				4D847A5021B1EAC100941531 /* Assets.xcassets */,
 				4D847A5221B1EAC100941531 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D847A4C21B1EAC100941531 /* ViewController.swift in Sources */,
+				4D847A5C21B1EADA00941531 /* TableViewController.swift in Sources */,
 				4D847A4A21B1EAC100941531 /* AppDelegate.swift in Sources */,
+				4D847A6021B2078700941531 /* WebViewController.swift in Sources */,
+				4D847A5E21B1EC6200941531 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
